@@ -69,6 +69,9 @@
 3. Spatially aware uncertainty (conformal prediction calibrated by distance to the training network) and Bayesian Neural Fields.
 4. Use distance to the training network as a reliability flag on published maps.
 
+## Companion study
+[aq-forecast-reliability](https://github.com/razon1494/aq-forecast-reliability) asks the same question in time instead of space: hourly next-hour PM2.5 forecasts at 18 Utah sites, tested on 2025 and at 4 held-out sites. There too, a model that wins on average is worse than simple persistence on high-pollution hours, and its intervals miss most of them.
+
 ## Reproduce
 ```
 pip install -r requirements.txt

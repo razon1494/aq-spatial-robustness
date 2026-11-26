@@ -1,0 +1,8 @@
+data/raw/
+data/interim/
+__pycache__/
+.pytest_cache/
+results/**/predictions_sample.csv
+results/timing_test.txt
+results/**/*log.txt
+results/*log.txt
